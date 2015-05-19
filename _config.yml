@@ -1,0 +1,28 @@
+name: The Experiment
+favicon: null
+layout_spectrum: 0.14912
+typography_spectrum: 0.91228
+title: The Experiment
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - "#e6c87b"
+    - "#3d2e3a"
+    - "#8c755a"
+    - "#fa904b"
+    - "#f52333"
+  brandStrength: 0
+  lightness: 0.5
+  saturation: 0.5
+purpose: []
