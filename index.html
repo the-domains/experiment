@@ -5,14 +5,15 @@
     <TITLE>The Experiment</TITLE>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="the-grid-solution" content=" " />
-    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/font/Icons/Icons.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/mini.css" media="(max-width: 19.9375em)" />
-    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/small.css" media="(min-width: 20em) and (max-width: 45.0624em) " />
-    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/medium.css" media="(min-width: 45.0625em) and (max-width: 90.0624em)" />
-    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/css/scale/large.css" media="(min-width: 90.0625em)" /><style type="text/css">
+    <meta the-grid-solution" content="64da59e0-8888-4213-96bc-1dae22e2cb10" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/css/font/Icons/Icons.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/css/scale/mini.css" media="(max-width: 19.9375em)" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/css/scale/small.css" media="(min-width: 20em) and (max-width: 45.0624em) " />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/css/scale/medium.css" media="(min-width: 45.0625em) and (max-width: 90.0624em)" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/css/scale/large.css" media="(min-width: 90.0625em)" /><style type="text/css">
   html {
   width: 100%;
+  font-size: 80px;
 }
 body {
   width: 100%;
@@ -63,10 +64,15 @@ body h3 a {
 }
 .decoration > svg {
   display: block;
+  z-index: 3;
 }
 .group .title,
 .group a {
+  z-index: 2;
   line-height: 1em;
+}
+.group .cover {
+  z-index: -2;
 }
 .group .attribution {
   white-space: nowrap;
@@ -101,8 +107,6 @@ body h3 a {
   border-radius: 30px;
 }
 
-
-.global-colors.base-light-color-1.base .base-color { background-color: hsl(43, 68%, 69%); }.global-colors.base-light-color-1.title-color-1 .title-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-1.title-color-2 .title-color { color: hsl(333, 5%, 43%); }.global-colors.base-light-color-1.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-1.title-color-4 .title-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-1.title-color-5 .title-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-1.title-color-6 .title-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-1.title-color-7 .title-color { color: hsl(24, 50%, 45%); }.global-colors.base-light-color-1.title-color-8 .title-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-1.title-color-9 .title-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-1.title-color-10 .title-color { color: hsl(356, 41%, 47%); }.global-colors.base-light-color-1.title-color-11 .title-color { color: hsl(43, 50%, 39%); }.global-colors.base-light-color-1.title-color-12 .title-color { color: hsl(32, 50%, 39%); }.global-colors.base-light-color-1.title-color-13 .title-color { color: hsl(312, 41%, 47%); }.global-colors.base-light-color-1.bg .bg-color { background-color: hsl(43, 69%, 85%); }.global-colors.base-light-color-1.box .box-color { background-color: hsl(43, 50%, 95%); }.global-colors.base-light-color-1.text-color-1 .text-color { color: hsl(312, 14%, 15%); }.global-colors.base-light-color-1.text-color-2 .text-color { color: hsl(0, 4%, 56%); }.global-colors.base-light-color-1.meta .meta-color { color: hsl(18, 7%, 72%); }.global-colors.base-light-color-1.boxPop-color-1 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-1.boxPop-color-2 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-light-color-1.boxPop-color-3 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-light-color-1.boxPop-color-4 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-light-color-1.boxPop-color-5 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-1.boxPop-color-6 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-light-color-1.boxPop-color-7 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-light-color-1.textPop-color-1 .textPop-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-1.textPop-color-2 .textPop-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-1.textPop-color-3 .textPop-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-1.textPop-color-4 .textPop-color { color: hsl(24, 50%, 45%); }.global-colors.base-light-color-1.textPop-color-5 .textPop-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-1.textPop-color-6 .textPop-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-1.textPop-color-7 .textPop-color { color: hsl(356, 41%, 47%); }.global-colors.base-light-color-1.textPop-color-8 .textPop-color { color: hsl(43, 50%, 39%); }.global-colors.base-light-color-1.textPop-color-9 .textPop-color { color: hsl(32, 50%, 39%); }.global-colors.base-light-color-1.textPop-color-10 .textPop-color { color: hsl(312, 41%, 47%); }.global-colors.base-light-color-1.heading .heading-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-1.prime .prime-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-1.primeText .primeText-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-1.meta_highlight .meta_highlight-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-2.base .base-color { background-color: hsl(312, 20%, 95%); }.global-colors.base-light-color-2.title-color-1 .title-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-2.title-color-2 .title-color { color: hsl(311, 5%, 43%); }.global-colors.base-light-color-2.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-2.title-color-4 .title-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-2.title-color-5 .title-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-2.title-color-6 .title-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-2.title-color-7 .title-color { color: hsl(24, 86%, 38%); }.global-colors.base-light-color-2.title-color-8 .title-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-2.title-color-9 .title-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-2.title-color-10 .title-color { color: hsl(355, 67%, 47%); }.global-colors.base-light-color-2.title-color-11 .title-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-2.title-color-12 .title-color { color: hsl(32, 68%, 33%); }.global-colors.base-light-color-2.title-color-13 .title-color { color: hsl(312, 55%, 47%); }.global-colors.base-light-color-2.bg .bg-color { background-color: hsl(300, 17%, 98%); }.global-colors.base-light-color-2.box .box-color { background-color: hsl(312, 20%, 95%); }.global-colors.base-light-color-2.text-color-1 .text-color { color: hsl(312, 14%, 15%); }.global-colors.base-light-color-2.text-color-2 .text-color { color: hsl(315, 4%, 55%); }.global-colors.base-light-color-2.meta .meta-color { color: hsl(317, 5%, 71%); }.global-colors.base-light-color-2.boxPop-color-1 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-2.boxPop-color-2 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-light-color-2.boxPop-color-3 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-light-color-2.boxPop-color-4 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-light-color-2.boxPop-color-5 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-2.boxPop-color-6 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-light-color-2.boxPop-color-7 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-light-color-2.textPop-color-1 .textPop-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-2.textPop-color-2 .textPop-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-2.textPop-color-3 .textPop-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-2.textPop-color-4 .textPop-color { color: hsl(24, 86%, 38%); }.global-colors.base-light-color-2.textPop-color-5 .textPop-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-2.textPop-color-6 .textPop-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-2.textPop-color-7 .textPop-color { color: hsl(355, 67%, 47%); }.global-colors.base-light-color-2.textPop-color-8 .textPop-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-2.textPop-color-9 .textPop-color { color: hsl(32, 68%, 33%); }.global-colors.base-light-color-2.textPop-color-10 .textPop-color { color: hsl(312, 55%, 47%); }.global-colors.base-light-color-2.heading .heading-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-2.prime .prime-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-2.primeText .primeText-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-2.meta_highlight .meta_highlight-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-3.base .base-color { background-color: hsl(32, 20%, 95%); }.global-colors.base-light-color-3.title-color-1 .title-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-3.title-color-2 .title-color { color: hsl(316, 5%, 43%); }.global-colors.base-light-color-3.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-3.title-color-4 .title-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-3.title-color-5 .title-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-3.title-color-6 .title-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-3.title-color-7 .title-color { color: hsl(24, 86%, 38%); }.global-colors.base-light-color-3.title-color-8 .title-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-3.title-color-9 .title-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-3.title-color-10 .title-color { color: hsl(355, 67%, 47%); }.global-colors.base-light-color-3.title-color-11 .title-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-3.title-color-12 .title-color { color: hsl(32, 68%, 33%); }.global-colors.base-light-color-3.title-color-13 .title-color { color: hsl(312, 55%, 47%); }.global-colors.base-light-color-3.bg .bg-color { background-color: hsl(30, 17%, 98%); }.global-colors.base-light-color-3.box .box-color { background-color: hsl(24, 20%, 95%); }.global-colors.base-light-color-3.text-color-1 .text-color { color: hsl(312, 14%, 15%); }.global-colors.base-light-color-3.text-color-2 .text-color { color: hsl(334, 3%, 55%); }.global-colors.base-light-color-3.meta .meta-color { color: hsl(348, 3%, 72%); }.global-colors.base-light-color-3.boxPop-color-1 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-3.boxPop-color-2 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-light-color-3.boxPop-color-3 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-light-color-3.boxPop-color-4 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-light-color-3.boxPop-color-5 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-3.boxPop-color-6 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-light-color-3.boxPop-color-7 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-light-color-3.textPop-color-1 .textPop-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-3.textPop-color-2 .textPop-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-3.textPop-color-3 .textPop-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-3.textPop-color-4 .textPop-color { color: hsl(24, 86%, 38%); }.global-colors.base-light-color-3.textPop-color-5 .textPop-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-3.textPop-color-6 .textPop-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-3.textPop-color-7 .textPop-color { color: hsl(355, 67%, 47%); }.global-colors.base-light-color-3.textPop-color-8 .textPop-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-3.textPop-color-9 .textPop-color { color: hsl(32, 68%, 33%); }.global-colors.base-light-color-3.textPop-color-10 .textPop-color { color: hsl(312, 55%, 47%); }.global-colors.base-light-color-3.heading .heading-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-3.prime .prime-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-3.primeText .primeText-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-3.meta_highlight .meta_highlight-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-4.base .base-color { background-color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.title-color-1 .title-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-4.title-color-2 .title-color { color: hsl(312, 4%, 44%); }.global-colors.base-light-color-4.title-color-3 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-4.title-color-4 .title-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-4.title-color-5 .title-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-4.title-color-6 .title-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-4.title-color-7 .title-color { color: hsl(24, 86%, 38%); }.global-colors.base-light-color-4.title-color-8 .title-color { color: hsl(42, 68%, 32%); }.global-colors.base-light-color-4.title-color-9 .title-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-4.title-color-10 .title-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-4.title-color-11 .title-color { color: hsl(355, 67%, 47%); }.global-colors.base-light-color-4.title-color-12 .title-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-4.title-color-13 .title-color { color: hsl(32, 68%, 33%); }.global-colors.base-light-color-4.title-color-14 .title-color { color: hsl(312, 55%, 47%); }.global-colors.base-light-color-4.bg .bg-color { background-color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.box .box-color { background-color: hsl(0, 0%, 100%); }.global-colors.base-light-color-4.text-color-1 .text-color { color: hsl(312, 14%, 15%); }.global-colors.base-light-color-4.text-color-2 .text-color { color: hsl(320, 3%, 58%); }.global-colors.base-light-color-4.meta .meta-color { color: hsl(315, 3%, 75%); }.global-colors.base-light-color-4.boxPop-color-1 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-4.boxPop-color-2 .boxPop-color { background-color: hsl(43, 68%, 69%); }.global-colors.base-light-color-4.boxPop-color-3 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-light-color-4.boxPop-color-4 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-light-color-4.boxPop-color-5 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-light-color-4.boxPop-color-6 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-light-color-4.boxPop-color-7 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-light-color-4.boxPop-color-8 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-light-color-4.textPop-color-1 .textPop-color { color: hsl(356, 75%, 47%); }.global-colors.base-light-color-4.textPop-color-2 .textPop-color { color: hsl(32, 22%, 45%); }.global-colors.base-light-color-4.textPop-color-3 .textPop-color { color: hsl(23, 64%, 54%); }.global-colors.base-light-color-4.textPop-color-4 .textPop-color { color: hsl(24, 86%, 38%); }.global-colors.base-light-color-4.textPop-color-5 .textPop-color { color: hsl(42, 68%, 32%); }.global-colors.base-light-color-4.textPop-color-6 .textPop-color { color: hsl(32, 22%, 32%); }.global-colors.base-light-color-4.textPop-color-7 .textPop-color { color: hsl(312, 14%, 21%); }.global-colors.base-light-color-4.textPop-color-8 .textPop-color { color: hsl(355, 67%, 47%); }.global-colors.base-light-color-4.textPop-color-9 .textPop-color { color: hsl(43, 68%, 31%); }.global-colors.base-light-color-4.textPop-color-10 .textPop-color { color: hsl(32, 68%, 33%); }.global-colors.base-light-color-4.textPop-color-11 .textPop-color { color: hsl(312, 55%, 47%); }.global-colors.base-light-color-4.heading .heading-color { color: hsl(312, 14%, 20%); }.global-colors.base-light-color-4.prime .prime-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-light-color-4.primeText .primeText-color { color: hsl(0, 0%, 0%); }.global-colors.base-light-color-4.meta_highlight .meta_highlight-color { color: hsl(356, 75%, 47%); }.global-colors.base-dark-color-1.base .base-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-dark-color-1.title-color-1 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-1.title-color-2 .title-color { color: hsl(34, 16%, 70%); }.global-colors.base-dark-color-1.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-1.title-color-4 .title-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-1.title-color-5 .title-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-1.title-color-6 .title-color { color: hsl(32, 18%, 67%); }.global-colors.base-dark-color-1.title-color-7 .title-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-1.title-color-8 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-1.title-color-9 .title-color { color: hsl(32, 22%, 59%); }.global-colors.base-dark-color-1.title-color-10 .title-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-1.title-color-11 .title-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-1.title-color-12 .title-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-1.title-color-13 .title-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-1.bg .bg-color { background-color: hsl(313, 14%, 13%); }.global-colors.base-dark-color-1.box .box-color { background-color: hsl(312, 14%, 20%); }.global-colors.base-dark-color-1.text-color-1 .text-color { color: hsl(312, 14%, 95%); }.global-colors.base-dark-color-1.text-color-2 .text-color { color: hsl(309, 5%, 72%); }.global-colors.base-dark-color-1.meta .meta-color { color: hsl(316, 5%, 43%); }.global-colors.base-dark-color-1.boxPop-color-1 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-1.boxPop-color-2 .boxPop-color { background-color: hsl(43, 68%, 69%); }.global-colors.base-dark-color-1.boxPop-color-3 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-dark-color-1.boxPop-color-4 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-dark-color-1.boxPop-color-5 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-1.boxPop-color-6 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-dark-color-1.boxPop-color-7 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-dark-color-1.textPop-color-1 .textPop-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-1.textPop-color-2 .textPop-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-1.textPop-color-3 .textPop-color { color: hsl(32, 18%, 67%); }.global-colors.base-dark-color-1.textPop-color-4 .textPop-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-1.textPop-color-5 .textPop-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-1.textPop-color-6 .textPop-color { color: hsl(32, 22%, 59%); }.global-colors.base-dark-color-1.textPop-color-7 .textPop-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-1.textPop-color-8 .textPop-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-1.textPop-color-9 .textPop-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-1.textPop-color-10 .textPop-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-1.heading .heading-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-1.prime .prime-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-1.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-1.meta_highlight .meta_highlight-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-2.base .base-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-dark-color-2.title-color-1 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-2.title-color-2 .title-color { color: hsl(41, 19%, 69%); }.global-colors.base-dark-color-2.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-2.title-color-4 .title-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-2.title-color-5 .title-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-2.title-color-6 .title-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-2.title-color-7 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-2.title-color-8 .title-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-2.title-color-9 .title-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-2.title-color-10 .title-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-2.title-color-11 .title-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-2.bg .bg-color { background-color: hsl(34, 23%, 12%); }.global-colors.base-dark-color-2.box .box-color { background-color: hsl(32, 22%, 20%); }.global-colors.base-dark-color-2.text-color-1 .text-color { color: hsl(312, 14%, 95%); }.global-colors.base-dark-color-2.text-color-2 .text-color { color: hsl(17, 5%, 73%); }.global-colors.base-dark-color-2.meta .meta-color { color: hsl(32, 22%, 45%); }.global-colors.base-dark-color-2.boxPop-color-1 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-2.boxPop-color-2 .boxPop-color { background-color: hsl(43, 68%, 69%); }.global-colors.base-dark-color-2.boxPop-color-3 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-dark-color-2.boxPop-color-4 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-2.boxPop-color-5 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-dark-color-2.boxPop-color-6 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-dark-color-2.textPop-color-1 .textPop-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-2.textPop-color-2 .textPop-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-2.textPop-color-3 .textPop-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-2.textPop-color-4 .textPop-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-2.textPop-color-5 .textPop-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-2.textPop-color-6 .textPop-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-2.textPop-color-7 .textPop-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-2.textPop-color-8 .textPop-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-2.heading .heading-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-2.prime .prime-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-2.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-2.meta_highlight .meta_highlight-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-3.base .base-color { background-color: hsl(43, 20%, 15%); }.global-colors.base-dark-color-3.title-color-1 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-3.title-color-2 .title-color { color: hsl(41, 18%, 68%); }.global-colors.base-dark-color-3.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-3.title-color-4 .title-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-3.title-color-5 .title-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-3.title-color-6 .title-color { color: hsl(32, 18%, 67%); }.global-colors.base-dark-color-3.title-color-7 .title-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-3.title-color-8 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-3.title-color-9 .title-color { color: hsl(32, 22%, 59%); }.global-colors.base-dark-color-3.title-color-10 .title-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-3.title-color-11 .title-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-3.title-color-12 .title-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-3.title-color-13 .title-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-3.bg .bg-color { background-color: hsl(44, 21%, 10%); }.global-colors.base-dark-color-3.box .box-color { background-color: hsl(44, 19%, 15%); }.global-colors.base-dark-color-3.text-color-1 .text-color { color: hsl(312, 14%, 95%); }.global-colors.base-dark-color-3.text-color-2 .text-color { color: hsl(20, 4%, 71%); }.global-colors.base-dark-color-3.meta .meta-color { color: hsl(36, 5%, 39%); }.global-colors.base-dark-color-3.boxPop-color-1 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-3.boxPop-color-2 .boxPop-color { background-color: hsl(43, 68%, 69%); }.global-colors.base-dark-color-3.boxPop-color-3 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-dark-color-3.boxPop-color-4 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-dark-color-3.boxPop-color-5 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-3.boxPop-color-6 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-dark-color-3.boxPop-color-7 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-dark-color-3.textPop-color-1 .textPop-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-3.textPop-color-2 .textPop-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-3.textPop-color-3 .textPop-color { color: hsl(32, 18%, 67%); }.global-colors.base-dark-color-3.textPop-color-4 .textPop-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-3.textPop-color-5 .textPop-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-3.textPop-color-6 .textPop-color { color: hsl(32, 22%, 59%); }.global-colors.base-dark-color-3.textPop-color-7 .textPop-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-3.textPop-color-8 .textPop-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-3.textPop-color-9 .textPop-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-3.textPop-color-10 .textPop-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-3.heading .heading-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-3.prime .prime-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-3.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-3.meta_highlight .meta_highlight-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-4.base .base-color { background-color: hsl(0, 0%, 0%); }.global-colors.base-dark-color-4.title-color-1 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-4.title-color-2 .title-color { color: hsl(43, 13%, 63%); }.global-colors.base-dark-color-4.title-color-3 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-4.title-color-4 .title-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-4.title-color-5 .title-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-4.title-color-6 .title-color { color: hsl(32, 18%, 67%); }.global-colors.base-dark-color-4.title-color-7 .title-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-4.title-color-8 .title-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-4.title-color-9 .title-color { color: hsl(32, 22%, 59%); }.global-colors.base-dark-color-4.title-color-10 .title-color { color: hsl(312, 14%, 25%); }.global-colors.base-dark-color-4.title-color-11 .title-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-4.title-color-12 .title-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-4.title-color-13 .title-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-4.title-color-14 .title-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-4.bg .bg-color { background-color: hsl(0, 0%, 0%); }.global-colors.base-dark-color-4.box .box-color { background-color: hsl(0, 0%, 0%); }.global-colors.base-dark-color-4.text-color-1 .text-color { color: hsl(312, 14%, 95%); }.global-colors.base-dark-color-4.text-color-2 .text-color { color: hsl(320, 2%, 66%); }.global-colors.base-dark-color-4.meta .meta-color { color: hsl(300, 1%, 28%); }.global-colors.base-dark-color-4.boxPop-color-1 .boxPop-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-4.boxPop-color-2 .boxPop-color { background-color: hsl(43, 68%, 69%); }.global-colors.base-dark-color-4.boxPop-color-3 .boxPop-color { background-color: hsl(32, 22%, 45%); }.global-colors.base-dark-color-4.boxPop-color-4 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-dark-color-4.boxPop-color-5 .boxPop-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-dark-color-4.boxPop-color-6 .boxPop-color { background-color: hsl(43, 75%, 55%); }.global-colors.base-dark-color-4.boxPop-color-7 .boxPop-color { background-color: hsl(32, 75%, 55%); }.global-colors.base-dark-color-4.boxPop-color-8 .boxPop-color { background-color: hsl(312, 75%, 55%); }.global-colors.base-dark-color-4.textPop-color-1 .textPop-color { color: hsl(23, 95%, 78%); }.global-colors.base-dark-color-4.textPop-color-2 .textPop-color { color: hsl(355, 91%, 73%); }.global-colors.base-dark-color-4.textPop-color-3 .textPop-color { color: hsl(32, 18%, 67%); }.global-colors.base-dark-color-4.textPop-color-4 .textPop-color { color: hsl(355, 81%, 79%); }.global-colors.base-dark-color-4.textPop-color-5 .textPop-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-4.textPop-color-6 .textPop-color { color: hsl(32, 22%, 59%); }.global-colors.base-dark-color-4.textPop-color-7 .textPop-color { color: hsl(312, 14%, 25%); }.global-colors.base-dark-color-4.textPop-color-8 .textPop-color { color: hsl(24, 85%, 90%); }.global-colors.base-dark-color-4.textPop-color-9 .textPop-color { color: hsl(43, 67%, 83%); }.global-colors.base-dark-color-4.textPop-color-10 .textPop-color { color: hsl(32, 67%, 83%); }.global-colors.base-dark-color-4.textPop-color-11 .textPop-color { color: hsl(312, 68%, 79%); }.global-colors.base-dark-color-4.heading .heading-color { color: hsl(43, 68%, 90%); }.global-colors.base-dark-color-4.prime .prime-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-dark-color-4.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-dark-color-4.meta_highlight .meta_highlight-color { color: hsl(23, 95%, 78%); }.global-colors.base-vibrant-color-1.base .base-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-vibrant-color-1.title-color-1 .title-color { color: hsl(312, 14%, 21%); }.global-colors.base-vibrant-color-1.title-color-2 .title-color { color: hsl(0, 0%, 100%); }.global-colors.base-vibrant-color-1.title-color-3 .title-color { color: hsl(23, 53%, 32%); }.global-colors.base-vibrant-color-1.bg .bg-color { background-color: hsl(24, 100%, 64%); }.global-colors.base-vibrant-color-1.box .box-color { background-color: hsl(24, 95%, 64%); }.global-colors.base-vibrant-color-1.text-color-1 .text-color { color: hsl(312, 14%, 15%); }.global-colors.base-vibrant-color-1.meta .meta-color { color: hsl(24, 54%, 45%); }.global-colors.base-vibrant-color-1.boxPop-color-1 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-vibrant-color-1.boxPop-color-2 .boxPop-color { background-color: hsl(355, 95%, 48%); }.global-colors.base-vibrant-color-1.boxPop-color-3 .boxPop-color { background-color: hsl(32, 95%, 45%); }.global-colors.base-vibrant-color-1.boxPop-color-4 .boxPop-color { background-color: hsl(43, 95%, 48%); }.global-colors.base-vibrant-color-1.textPop-color-1 .textPop-color { color: hsl(23, 53%, 32%); }.global-colors.base-vibrant-color-1.heading .heading-color { color: hsl(312, 14%, 21%); }.global-colors.base-vibrant-color-1.prime .prime-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-vibrant-color-1.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-vibrant-color-1.meta_highlight .meta_highlight-color { color: hsl(23, 53%, 32%); }.global-colors.base-vibrant-color-2.base .base-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-vibrant-color-2.title-color-1 .title-color { color: hsl(43, 68%, 85%); }.global-colors.base-vibrant-color-2.title-color-2 .title-color { color: hsl(0, 0%, 0%); }.global-colors.base-vibrant-color-2.title-color-3 .title-color { color: hsl(355, 93%, 89%); }.global-colors.base-vibrant-color-2.bg .bg-color { background-color: hsl(355, 100%, 55%); }.global-colors.base-vibrant-color-2.box .box-color { background-color: hsl(355, 91%, 55%); }.global-colors.base-vibrant-color-2.text-color-1 .text-color { color: hsl(43, 68%, 95%); }.global-colors.base-vibrant-color-2.meta .meta-color { color: hsl(355, 91%, 73%); }.global-colors.base-vibrant-color-2.boxPop-color-1 .boxPop-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-vibrant-color-2.boxPop-color-2 .boxPop-color { background-color: hsl(43, 91%, 69%); }.global-colors.base-vibrant-color-2.boxPop-color-3 .boxPop-color { background-color: hsl(24, 91%, 88%); }.global-colors.base-vibrant-color-2.boxPop-color-4 .boxPop-color { background-color: hsl(32, 91%, 45%); }.global-colors.base-vibrant-color-2.textPop-color-1 .textPop-color { color: hsl(355, 93%, 89%); }.global-colors.base-vibrant-color-2.heading .heading-color { color: hsl(43, 68%, 85%); }.global-colors.base-vibrant-color-2.prime .prime-color { background-color: hsl(312, 14%, 21%); }.global-colors.base-vibrant-color-2.primeText .primeText-color { color: hsl(0, 0%, 100%); }.global-colors.base-vibrant-color-2.meta_highlight .meta_highlight-color { color: hsl(355, 93%, 89%); }
 </style><style type="text/css">
   
 /*
@@ -118,195 +122,139 @@ html:not(.gss-ready) {
 }
 </style><style id="gss-precomputed">
 @media (max-width: 720px) {
-#u24{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 4.5rem; top: 0rem; left: 0rem;;}
-#u24 .stack { display: inline-block; }
+#div-0-wrapper-1529944{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 5.4rem; top: 0rem; left: 0rem;;}
+#div-0-wrapper-1529944 .stack { display: inline-block; }
 
-#u23{height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
-#u23 .group.mixed .attribution { }
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666{background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); font-weight: bold; height: 5.4rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666 .group.mixed .attribution { }
 
-#u23 .group.mixed .publisher { }
-#u23 .group.mixed { text-align: left; }
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666 .group.mixed .publisher { }
 
-#u15{z-index: 2; height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
-#u11{font-size: 0.15rem; position: absolute; top: 3.21rem; left: 1.98rem;;line-height: 0.2400rem;;color: rgb(43, 33, 41);letter-spacing: 0.0100rem;;}
-#u7{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
-#u6{line-height: 0.1200rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed{z-index: 2; width: 7.2rem; height: 2.62rem; position: absolute; top: 1.39rem; left: 0rem;;color: rgb(255, 255, 255);}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution{font-size: 0.15rem; position: absolute; left: 1.44rem; top: 0rem;;line-height: 0.2400rem;;letter-spacing: 0.0100rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-author{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-author-a-0{line-height: 0.1200rem;;}
 
-#u10{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;color: rgb(210, 30, 42);font-weight: normal;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-publisher{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;font-weight: normal;}
 
-#u14{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 2.16rem; position: absolute; top: 1.45rem; left: 1.44rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u13{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-title{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 2.16rem; position: absolute; left: 1.44rem; top: 1.02rem;;font-family: Montserrat;font-weight: bold;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-title-a-0{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
 
-#u22{overflow: hidden; height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);letter-spacing: normal;}
-#u16{height: 5.4rem; width: 7.2rem; position: absolute; top: -1.08rem; left: 0rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-d-divider{height: 0.24rem; width: 0.24rem; position: absolute; left: 1.44rem; top: 0.62rem;;line-height: 0.2500rem;;letter-spacing: normal;}
 
-#u54{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 11.8rem; top: 0rem; left: 0rem;;}
-#u54 .stack { display: inline-block; }
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover{overflow: hidden; height: 5.4rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover-a-0-img-0{height: 5.4rem; width: 7.2rem; position: absolute; top: -0.18rem; left: 0rem;;}
 
-#u53{height: 11.8rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
-#u53 .group.textual .attribution { }
+#div-0-wrapper-4899823{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 5.4rem; top: 0rem; left: 0rem;;color: rgb(0, 0, 0);}
+#div-0-wrapper-4899823 .stack { display: inline-block; }
 
-#u53 .group.textual .publisher { }
-#u53 .group.textual { text-align: left; }
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0{background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); font-weight: bold; height: 5.4rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0 .group.mixed .attribution { }
 
-#u44{z-index: 2; width: 3.6rem; height: 11.8rem; position: absolute; top: 0rem; left: 0rem;;}
-#u31{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 0.72rem; position: absolute; top: 10.64rem; left: 1.44rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u30{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0 .group.mixed .publisher { }
 
-#u33{font-size: 0.15rem; line-height: 0.23rem; width: 0.72rem; position: absolute; top: 0.36rem; left: 1.44rem;;color: rgb(43, 33, 41);letter-spacing: normal;}
-#u33>a:nth-of-type(1){line-height: 0.1500rem;;color: rgb(210, 30, 42);}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed{z-index: 2; width: 7.2rem; height: 0.46rem; position: absolute; top: 2.47rem; left: 0rem;;color: rgb(255, 255, 255);}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed-a-attribution{font-size: 0.15rem; position: absolute; left: 1.44rem; top: 0rem;;line-height: 0.2400rem;;letter-spacing: 0.0100rem;;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed-a-attribution-a-publisher{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;}
 
-#u43{font-size: 0.15rem; position: absolute; left: 0.67rem; top: 0rem;;line-height: 0.2400rem;;color: rgb(43, 33, 41);letter-spacing: 0.0100rem;;}
-#u36{z-index: 2; height: 0.36rem; width: 0.36rem; font-size: 0.12rem; line-height: 0.2rem;;}
-#u35{line-height: 0.1200rem;;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover{overflow: hidden; height: 5.4rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;line-height: 0.2500rem;;letter-spacing: normal;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover-a-0-img-0{height: 5.4rem; width: 7.2rem; position: absolute; top: -0.18rem; left: 0rem;;}
 
-#u39{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
+#div-0-wrapper-8184097{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 4.05rem; top: 0rem; left: 0rem;;color: rgb(0, 0, 0);}
+#div-0-wrapper-8184097 .stack { display: inline-block; }
 
-#u42{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;color: rgb(210, 30, 42);font-weight: normal;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8{background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); font-weight: bold; height: 4.05rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8 .group.mixed .attribution { }
 
-#u52{width: 3.6rem; height: 11.8rem; position: absolute; top: 0rem; left: 3.6rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);letter-spacing: normal;}
-#u51{overflow: hidden; width: 6.4rem; height: 3.6rem; position: absolute; left: -2.79rem; top: 8.2rem;;}
-#u46{line-height: 0.1600rem;;}
-#u45{height: 3.6rem; width: 6.4rem; position: absolute; left: 0rem; top: -0.18rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8 .group.mixed .publisher { }
 
-#u71{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 4.5rem; top: 0rem; left: 0rem;;line-height: 0.2500rem;;}
-#u71 .stack { display: inline-block; }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed{z-index: 2; width: 7.3rem; height: 1.86rem; position: absolute; top: 1.1rem; left: -0.1rem;;color: rgb(255, 255, 255);}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution{font-size: 0.15rem; position: absolute; left: 1.44rem; top: 0rem;;line-height: 0.2400rem;;letter-spacing: 0.0100rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar{z-index: 2; height: 0.36rem; width: 0.36rem; font-size: 0.12rem; line-height: 0.2rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar-a-0{line-height: 0.1200rem;;}
 
-#u70{height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
-#u70 .group.mixed .attribution { }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-author{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
 
-#u70 .group.mixed .publisher { }
-#u70 .group.mixed { text-align: left; }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-publisher{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;font-weight: normal;}
 
-#u62{z-index: 2; height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
-#u61{font-size: 0.15rem;;line-height: 0.2400rem;;color: rgb(43, 33, 41);letter-spacing: 0.0100rem;;}
-#u60{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;color: rgb(210, 30, 42);}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-title{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 2.26rem; position: absolute; left: 1.44rem; top: 1.06rem;;font-family: Montserrat;font-weight: bold;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-title-a-0{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
 
-#u69{overflow: hidden; height: 4.5rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);letter-spacing: normal;}
-#u63{height: 5.4rem; width: 7.2rem; position: absolute; top: -1.08rem; left: 0rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-d-divider{height: 0.24rem; width: 0.24rem; position: absolute; left: 1.44rem; top: 0.66rem;;line-height: 0.2500rem;;letter-spacing: normal;}
 
-#u83{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 4.5rem; left: 0rem; top: 0rem;;}
-#u83 .stack { display: inline-block; }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover{overflow: hidden; height: 4.05rem; width: 7.2rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover-a-0-img-0{height: 4.05rem; width: 7.2rem; position: absolute; top: -0.18rem; left: 0rem;;}
 
-#u82{width: 7.2rem; height: 4.5rem; position: absolute; left: 0rem; top: 0rem;;}
-#u82 .group.textual { text-align: left; }
-
-#u81{z-index: 2; width: 5.76rem; height: 4.5rem; position: absolute; left: 0.72rem; top: 0rem;;}
-#u78{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 6.48rem; position: absolute; left: -0.72rem; top: 2.05rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u77{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
-
-#u80{font-size: 0.15rem; line-height: 0.23rem; position: absolute; left: 0rem; top: 1.79rem;;color: rgb(43, 33, 41);letter-spacing: normal;}
-
-#u95{position: relative; display: block; width: 7.2rem; margin-top: 0rem; margin-bottom: 0rem; height: 4.5rem; left: 0rem; top: 0rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);}
-#u95 .stack { display: inline-block; }
-
-#u94{width: 7.2rem; height: 4.5rem; position: absolute; left: 0rem; top: 0rem;;}
-#u94 .group.textual { text-align: left; }
-
-#u93{z-index: 2; width: 5.76rem; height: 4.5rem; position: absolute; left: 0.72rem; top: 0rem;;}
-#u90{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 6.48rem; position: absolute; left: -0.72rem; top: 1.85rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u89{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
-
-#u92{font-size: 0.15rem; line-height: 0.23rem; position: absolute; left: 0rem; top: 1.79rem;;color: rgb(43, 33, 41);letter-spacing: normal;}
-
-#u98{line-height: 0.2500rem;;color: rgb(0, 0, 0);}
+#u71{color: rgb(0, 0, 0);}
 
 }
 @media (min-width: 721px) {
-#u24{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 9rem; top: 0rem; left: 0rem;;}
-#u24 .stack { display: inline-block; }
+#div-0-wrapper-1529944{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 10.8rem; top: 0rem; left: 0rem;;}
+#div-0-wrapper-1529944 .stack { display: inline-block; }
 
-#u23{height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
-#u23 .group.mixed .attribution { }
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666{background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); font-weight: bold; height: 10.8rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666 .group.mixed .attribution { }
 
-#u23 .group.mixed .publisher { }
-#u23 .group.mixed { text-align: left; }
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666 .group.mixed .publisher { }
 
-#u15{z-index: 2; height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
-#u11{font-size: 0.15rem; position: absolute; top: 4.86rem; left: 1.98rem;;line-height: 0.2400rem;;color: rgb(43, 33, 41);letter-spacing: 0.0100rem;;}
-#u7{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
-#u6{line-height: 0.1200rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed{z-index: 2; width: 14.4rem; height: 1.42rem; position: absolute; top: 4.69rem; left: 0rem;;color: rgb(255, 255, 255);}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution{font-size: 0.15rem; position: absolute; left: 1.44rem; top: 0rem;;line-height: 0.2400rem;;letter-spacing: 0.0100rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-author{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-author-a-0{line-height: 0.1200rem;;}
 
-#u10{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;color: rgb(210, 30, 42);font-weight: normal;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-publisher{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;font-weight: normal;}
 
-#u14{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 9.36rem; position: absolute; top: 4.3rem; left: 1.44rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u13{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-title{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 9.36rem; position: absolute; left: 1.44rem; top: 1.02rem;;font-family: Montserrat;font-weight: bold;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-title-a-0{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
 
-#u22{overflow: hidden; height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);letter-spacing: normal;}
-#u16{height: 10.8rem; width: 14.4rem; position: absolute; top: -1.98rem; left: 0rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-d-divider{height: 0.24rem; width: 0.24rem; position: absolute; left: 1.44rem; top: 0.62rem;;line-height: 0.2500rem;;letter-spacing: normal;}
 
-#u54{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 4.05rem; top: 0rem; left: 0rem;;}
-#u54 .stack { display: inline-block; }
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover{overflow: hidden; height: 10.8rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover-a-0-img-0{height: 10.8rem; width: 14.4rem; position: absolute; top: -0.18rem; left: 0rem;;}
 
-#u53{height: 4.05rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
-#u53 .group.textual .attribution { }
+#div-0-wrapper-4899823{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 10.8rem; top: 0rem; left: 0rem;;color: rgb(0, 0, 0);}
+#div-0-wrapper-4899823 .stack { display: inline-block; }
 
-#u53 .group.textual .publisher { }
-#u53 .group.textual { text-align: left; }
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0{background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); font-weight: bold; height: 10.8rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0 .group.mixed .attribution { }
 
-#u44{z-index: 2; width: 7.2rem; height: 4.05rem; position: absolute; top: 0rem; left: 0rem;;}
-#u31{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 4.32rem; position: absolute; top: 2.71rem; left: 1.44rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u30{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0 .group.mixed .publisher { }
 
-#u33{font-size: 0.15rem; line-height: 0.23rem; width: 4.32rem; position: absolute; top: 0.94rem; left: 1.44rem;;color: rgb(43, 33, 41);letter-spacing: normal;}
-#u33>a:nth-of-type(1){line-height: 0.1500rem;;color: rgb(210, 30, 42);}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed{z-index: 2; width: 14.4rem; height: 0.46rem; position: absolute; top: 5.17rem; left: 0rem;;color: rgb(255, 255, 255);}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed-a-attribution{font-size: 0.15rem; position: absolute; left: 1.44rem; top: 0rem;;line-height: 0.2400rem;;letter-spacing: 0.0100rem;;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed-a-attribution-a-publisher{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;}
 
-#u43{font-size: 0.15rem; position: absolute; left: 2.47rem; top: 0rem;;line-height: 0.2400rem;;color: rgb(43, 33, 41);letter-spacing: 0.0100rem;;}
-#u36{z-index: 2; height: 0.36rem; width: 0.36rem; font-size: 0.12rem; line-height: 0.2rem;;}
-#u35{line-height: 0.1200rem;;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover{overflow: hidden; height: 10.8rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;line-height: 0.2500rem;;letter-spacing: normal;}
+#u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover-a-0-img-0{height: 10.8rem; width: 14.4rem; position: absolute; top: -0.18rem; left: 0rem;;}
 
-#u39{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
+#div-0-wrapper-8184097{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 8.1rem; top: 0rem; left: 0rem;;color: rgb(0, 0, 0);}
+#div-0-wrapper-8184097 .stack { display: inline-block; }
 
-#u42{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;color: rgb(210, 30, 42);font-weight: normal;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8{background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); font-weight: bold; height: 8.1rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8 .group.mixed .attribution { }
 
-#u52{width: 7.2rem; height: 4.05rem; position: absolute; top: 0rem; left: 7.2rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);letter-spacing: normal;}
-#u51{overflow: hidden; width: 7.2rem; height: 4.06rem; position: absolute; left: 0rem; top: 0rem;;}
-#u46{line-height: 0.1600rem;;}
-#u45{height: 4.06rem; width: 7.21rem; position: absolute; left: 0rem; top: -0.18rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8 .group.mixed .publisher { }
 
-#u71{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 9rem; top: 0rem; left: 0rem;;line-height: 0.2500rem;;}
-#u71 .stack { display: inline-block; }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed{z-index: 2; width: 14.4rem; height: 1.46rem; position: absolute; top: 3.32rem; left: 0rem;;color: rgb(255, 255, 255);}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution{font-size: 0.15rem; position: absolute; left: 1.44rem; top: 0rem;;line-height: 0.2400rem;;letter-spacing: 0.0100rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar{z-index: 2; height: 0.36rem; width: 0.36rem; font-size: 0.12rem; line-height: 0.2rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar-a-0{line-height: 0.1200rem;;}
 
-#u70{height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
-#u70 .group.mixed .attribution { }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-author{z-index: 2; font-size: 0.12rem; line-height: 0.2rem;;font-weight: bold;}
 
-#u70 .group.mixed .publisher { }
-#u70 .group.mixed { text-align: left; }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-publisher{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;font-weight: normal;}
 
-#u62{z-index: 2; height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
-#u61{font-size: 0.15rem;;line-height: 0.2400rem;;color: rgb(43, 33, 41);letter-spacing: 0.0100rem;;}
-#u60{z-index: 2; padding-bottom: 0.22rem; padding-right: 0.24rem; padding-left: 0.24rem; font-size: 0.12rem; line-height: 0.2rem;;color: rgb(210, 30, 42);}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-title{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 9.36rem; position: absolute; left: 1.44rem; top: 1.06rem;;font-family: Montserrat;font-weight: bold;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-title-a-0{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
 
-#u69{overflow: hidden; height: 9rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);letter-spacing: normal;}
-#u63{height: 10.8rem; width: 14.4rem; position: absolute; top: -1.98rem; left: 0rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-d-divider{height: 0.24rem; width: 0.24rem; position: absolute; left: 1.44rem; top: 0.66rem;;line-height: 0.2500rem;;letter-spacing: normal;}
 
-#u83{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 9rem; left: 0rem; top: 0rem;;}
-#u83 .stack { display: inline-block; }
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover{overflow: hidden; height: 8.1rem; width: 14.4rem; position: absolute; top: 0rem; left: 0rem;;}
+#u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover-a-0-img-0{height: 8.1rem; width: 14.4rem; position: absolute; top: -0.18rem; left: 0rem;;}
 
-#u82{width: 14.4rem; height: 9rem; position: absolute; left: 0rem; top: 0rem;;}
-#u82 .group.textual { text-align: left; }
+#u71{color: rgb(0, 0, 0);}
 
-#u81{z-index: 2; width: 12.96rem; height: 9rem; position: absolute; left: 0.72rem; top: 0rem;;}
-#u78{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 13.68rem; position: absolute; left: -0.72rem; top: 4.3rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u77{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
-
-#u80{font-size: 0.15rem; line-height: 0.23rem; position: absolute; left: 0rem; top: 4.27rem;;color: rgb(43, 33, 41);letter-spacing: normal;}
-
-#u95{position: relative; display: block; width: 14.4rem; margin-top: 0rem; margin-bottom: 0rem; height: 9rem; left: 0rem; top: 0rem;;line-height: 0.2500rem;;color: rgb(0, 0, 0);}
-#u95 .stack { display: inline-block; }
-
-#u94{width: 14.4rem; height: 9rem; position: absolute; left: 0rem; top: 0rem;;}
-#u94 .group.textual { text-align: left; }
-
-#u93{z-index: 2; width: 12.96rem; height: 9rem; position: absolute; left: 0.72rem; top: 0rem;;}
-#u90{font-size: 0.32rem; letter-spacing: 0.04rem; line-height: 0.4rem; width: 13.68rem; position: absolute; left: -0.72rem; top: 4.3rem;;color: rgb(58, 44, 55);font-family: Montserrat;font-weight: bold;}
-#u89{line-height: 0.3200rem;;letter-spacing: 0.0400rem;;font-family: 'Open Sans';font-weight: normal;}
-
-#u92{font-size: 0.15rem; line-height: 0.23rem; position: absolute; left: 0rem; top: 4.27rem;;color: rgb(43, 33, 41);letter-spacing: normal;}
-
-#u98{line-height: 0.2500rem;;color: rgb(0, 0, 0);}
-
-}</style><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script><script>WebFont.load({"google":{"families":["Montserrat:400,700","Open Sans:400,400italic,700,700italic"]}});</script><style type="text/css">html {font-family: 'Open Sans';font-weight: 400;}
+}</style><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script><script id="web-font-loader">WebFont.load({"google":{"families":["Montserrat:400,700","Open Sans:400,400italic,700,700italic"]}});</script><style type="text/css">html {font-family: 'Open Sans';font-weight: 400;}
  .layout-system .hero {font-family: 'Montserrat';font-weight: 400;}
  .layout-system .title {font-family: 'Montserrat';}
  .layout-system .subtitle {font-family: 'Montserrat';}
@@ -318,98 +266,109 @@ html:not(.gss-ready) {
  .layout-system .quote {font-family: 'Montserrat';font-weight: 400;font-style: italic;}
  .layout-system .title {text-transform: uppercase;letter-spacing: .07em;}</style></head>
 
-  <body id="u99"><script src="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/assets/gss-init.js" id="u0"></script>
-    <div class="layout-system user simple w-assets sections" id="u96">
-      <div index="wide" kind="layout" style="position: relative" class="wide layout" id="u24"><style type="text/gss" scoped="scoped" id="u2">margin-top:= 0md;
+  <body id="u72"><script src="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/assets/gss-init.js" id="script-0"></script>
+    <div class="layout-system user simple w-assets sections" id="div-0">
+      <div id="div-0-wrapper-1529944" style="position: relative" class="wide layout"><style id="div-0-wrapper-1529944-wrapper-stylesheet-1529944" type="text/gss" scoped="scoped">margin-top:= 0md;
 margin-bottom:= 0md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/sizing/container.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/sizing/container.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
 h-gutter:= 0;
 v-gutter-min:= .5md;
 v-gutter-max:= .5md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/columns/one.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/columns/one.gss;
 </style>
-        <section dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" kind="stack" class="title-text-cover mixed w-aside w-decoration w-title w-media global-colors base-light-color-1 title-color-1 text-color-1 boxPop-color-1 textPop-color-1 wide fullscreen flow_vertical flow_reversed align-left decorated w-bg-cover softcolor1 stack" id="u23"><style type="text/gss" scoped="scoped" id="u4">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
+        <section class="title-text-cover cc2805d6-a3ed-4476-acd5-df46edfce666 mixed w-aside w-title w-divider w-decoration w-media wide fullscreen w-black-bg flow_vertical flow_reversed decorated w-bg-cover softcolor1 stack" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666"><style type="text/gss" scoped="scoped" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-style-0">@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
 inner-gap-horizontal:= 0;
 inner-gap-vertical:= 0;
 inner-gap:= 0;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
 // h-emphasis: center;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
 // name: title-text-cover;
 .group.mixed{
-  @v |-[inner-gap-top]-(.title)-[inner-gap-bottom]-| !require;
-  @h |-[inner-gap-left]-(.title)-[inner-gap-right]-| !require;
-  // direction: vertical;
-  inner-gap:= 2g;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/simple/assets/gss/group/font-size/small.gss;
+  @v |-[inner-gap-top]-(.attribution)-[inner-gap]-(.divider)-[inner-gap]-(.title)-[inner-gap-bottom]-| !strong950;
+  @h |-[inner-gap-left]-(.title)-[inner-gap-right]-| !strong950;
+  @h |-[inner-gap-2-left]-(.divider)-[inner-gap-2-right]-| !strong950;
+  @h |-[inner-gap-3-left]-(.attribution)-[inner-gap-3-right]-| !strong950;
   outer-gap-horizontal:= 0md;
   outer-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-push/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-push/center.gss;
-  inner-gap-horizontal:= 0md;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-push/stretch.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-push/center-collapse.gss;
+  inner-gap-horizontal:= 7md;
   inner-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align/left.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align/center.gss;
-  text-align: left;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-distribute/2to5.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align/left.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-align/top.gss;
+  // direction: vertical;
+  inner-gap:= 2g;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/simple/assets/gss/group/font-size/small.gss;
   z-index:= 2;
-  inner-gap-left-min:= 2md;
-  inner-gap-right-min:= 5md;
   .aside.attribution{
-    ^ .title{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/h-align/left.gss;
-    }
-    ^ .title{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/v-align/below.gss;
-    }
-    h-offset:= .75md;
+    h-offset:= 0;
     gap:= 2g;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
     .aside.author{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/size/small.gss;
     }
     .aside.publisher{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
     }
+  }
+  .decoration.divider{
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/decoration/size/small.gss;
+    // svg: line;
   }
   // $class: w-bg-cover;
   // reversed: true;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align-2/left.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align-3/left.gss;
 }
 .media.cover{
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/sizing/background.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/viewport/bound.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/sizing/background.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/viewport/inline.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/h-focus/fit.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/v-focus/fit.gss;
 }
 // $class: fullscreen;
 // wrapper: wide;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
+background-color: #222;
+color: #fff;
+font-weight: bold;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
 </style>
-          <div dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" index="mixed" class="mixed group" kind="group" id="u15">
-            <div dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" index="attribution" kind="aside" class="text-color attribution aside" id="u11">
-              <div index="author" dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" kind="aside" class="text-color author aside" id="u7">
-                <a class="name" dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" href="http://dribbble.com/dannpetty" id="u6">Dann Petty</a>
+          <div class="mixed group" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed">
+            <div class="text-color vfld attribution aside" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution">
+              <div class="text-color author aside" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-author">
+                <a class="name" href="http://dribbble.com/dannpetty" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-author-a-0">Dann Petty</a>
               </div>
-              <div index="publisher" dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" kind="aside" class="textPop-color publisher aside" id="u10">
-                <a href="http://dribbble.com/" id="u9">Dribbble</a>
+              <div class="textPop-color publisher aside" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-publisher">
+                <a href="http://dribbble.com/" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-a-attribution-a-publisher-a-0">Dribbble</a>
               </div>
             </div>
-            <h1 dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" class="title title-color vfld vfld-leader vfl-trailer title" index="title" id="u14">
-              <a href="https://dribbble.com/shots/1971412-The-Epicurrence-Welcome-Pack?list=users&offset=4" id="u13">The Epicurrence Welcome Pack</a>
+            <h1 class="title title-color vfld title" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-title">
+              <a href="https://dribbble.com/shots/1971412-The-Epicurrence-Welcome-Pack?list=users&offset=4" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-title-a-0">The Epicurrence Welcome Pack</a>
             </h1>
+            <div class="divider decoration" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-g-mixed-d-divider">
+              <?xml version="1.0" encoding="utf-8" ?>
+              <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+              <svg id="svg-embed-line" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 37.3 1.8" enable-background="new 0 0 37.3 1.8" xml:space="preserve">
+                <rect x="0" y="0" fill="#EE2A7B" width="37.3" height="1.8" />
+              </svg>
+            </div>
           </div>
-          <div dataId="cc2805d6-a3ed-4476-acd5-df46edfce666" index="cover" kind="media" class="cover media" id="u22">
-            <a href="https://dribbble.com/shots/1971412-The-Epicurrence-Welcome-Pack?list=users&offset=4" id="u17">
-              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/84b57635d8b72fd1e6f61704836f6a62/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F3132%2Fscreenshots%2F1971412%2Fepicurrence_welcomepack.jpg&width=800&height=600" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/5e6e876a980b84d316d2ad54861a542e/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F3132%2Fscreenshots%2F1971412%2Fepicurrence_welcomepack.jpg&width=720&height=540 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/84b57635d8b72fd1e6f61704836f6a62/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F3132%2Fscreenshots%2F1971412%2Fepicurrence_welcomepack.jpg&width=800&height=600 800w" sizes="(min-width: 1400px) 1400px, 100vw" id="u16" />
-            </a><style type="text/gss" scoped="scoped" id="u19">"scene"[x] == img[x] + 0 * image-scale !require;
-"scene"[y] == img[y] + 0 * image-scale !require;
-"scene"[width] ==  800 * image-scale !require;
-"scene"[height] == 600 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u21">overflow: hidden;
+          <div z="1" class="cover media" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover">
+            <a href="https://dribbble.com/shots/1971412-The-Epicurrence-Welcome-Pack?list=users&offset=4" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover-a-0">
+              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/84b57635d8b72fd1e6f61704836f6a62/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F3132%2Fscreenshots%2F1971412%2Fepicurrence_welcomepack.jpg&width=800&height=600" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/5e6e876a980b84d316d2ad54861a542e/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F3132%2Fscreenshots%2F1971412%2Fepicurrence_welcomepack.jpg&width=720&height=540 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/84b57635d8b72fd1e6f61704836f6a62/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F3132%2Fscreenshots%2F1971412%2Fepicurrence_welcomepack.jpg&width=800&height=600 800w" sizes="(min-width: 1400px) 1400px, 100vw" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover-a-0-img-0" />
+            </a><style type="text/gss" scoped="scoped" id="u-cc2805d6-a3ed-4476-acd5-df46edfce666-m-cover-style-0">overflow: hidden;
 
 @v |~("viewport")~| in(img) !strong900;
 @h |~("viewport")~| in(img) !strong900;
@@ -426,125 +385,210 @@ img[height] >= 600 * image-min-scale !strong950;
 img[height] <= 600 * image-max-scale !strong950;</style></div>
         </section>
       </div>
-      <div index="wide" kind="layout" style="position: relative" class="wide layout" id="u54"><style type="text/gss" scoped="scoped" id="u26">margin-top:= 0md;
+      <div id="div-0-wrapper-4899823" style="position: relative" class="wide layout"><style id="div-0-wrapper-4899823-wrapper-stylesheet-4899823" type="text/gss" scoped="scoped">margin-top:= 0md;
 margin-bottom:= 0md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/sizing/container.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/sizing/container.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
 h-gutter:= 0;
 v-gutter-min:= .5md;
 v-gutter-max:= .5md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/columns/one.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/columns/one.gss;
 </style>
-        <section dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" kind="stack" class="text-cover double w-title w-description w-aside w-media global-colors base-light-color-1 title-color-1 text-color-1 boxPop-color-1 textPop-color-1 wide fullscreen flow_reversed align-left decorated softcolor2 stack" id="u53"><style type="text/gss" scoped="scoped" id="u28">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
+        <section class="title-text-cover f2dfa4b0-657d-450b-9a33-3474c00834e0 mixed w-aside w-media wide fullscreen w-black-bg flow_vertical flow_reversed decorated w-bg-cover softcolor2 stack" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0"><style type="text/gss" scoped="scoped" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-style-0">@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
 inner-gap-horizontal:= 0;
 inner-gap-vertical:= 0;
 inner-gap:= 0;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/direction/horizontal.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-emphasis/equal.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
-// name: text-cover;
-.group.textual{
-  @v |-[inner-gap-top]-(.description)-[inner-gap]-(.title)-[inner-gap-bottom]-| !require;
-  @h |-[inner-gap-left]-(.title)-[inner-gap-right]-| !require;
-  @h |-[inner-gap-2-left]-(.description)-[inner-gap-2-right]-| !require;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-sizing/parent.gss;
-  // name: base-color;
-  // direction: vertical;
-  inner-gap:= 2g;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/simple/assets/gss/group/font-size/small.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
+// h-emphasis: center;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
+// name: title-text-cover;
+.group.mixed{
+  @v |-[inner-gap-top]-(.attribution)-[inner-gap-bottom]-| !strong950;
+  @h |-[inner-gap-3-left]-(.attribution)-[inner-gap-3-right]-| !strong950;
   outer-gap-horizontal:= 0md;
   outer-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-push/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-push/center.gss;
-  inner-gap-horizontal:= 4md;
-  inner-gap-vertical:= 1md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align/center.gss;
-  text-align: left;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-push/stretch.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-push/center-collapse.gss;
+  inner-gap-horizontal:= 7md;
+  inner-gap-vertical:= 0md;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-distribute/2to5.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align/left.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-align/top.gss;
+  // direction: vertical;
+  inner-gap:= 2g;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/simple/assets/gss/group/font-size/small.gss;
   z-index:= 2;
   .aside.attribution{
-    ^{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/h-align/center.gss;
-    }
-    ^{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/v-align/top.gss;
-    }
     h-offset:= 0;
     gap:= 2g;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
+    .aside.publisher{
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
+    }
+  }
+  // $class: w-bg-cover;
+  // reversed: true;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align-3/left.gss;
+}
+.media.cover{
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/sizing/background.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/viewport/inline.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/h-focus/fit.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/v-focus/fit.gss;
+}
+// $class: fullscreen;
+// wrapper: wide;
+background-color: #222;
+color: #fff;
+font-weight: bold;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
+</style>
+          <div class="mixed group" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed">
+            <div class="text-color vfld attribution aside" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed-a-attribution">
+              <div class="textPop-color publisher aside" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-g-mixed-a-attribution-a-publisher">dribbble.com</div>
+            </div>
+          </div>
+          <div z="1" class="cover media" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover">
+            <a href="https://dribbble.com/shots/2050076-Newsletter-Units?list=shots&offset=15&sort=popular&timeframe=now" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover-a-0">
+              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/09d3ed0c3873acce37ff13b715c1649b/gradientmap.png?stop1=0.2&stop2=0.8&color2=%23B01B54&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F51466%2Fscreenshots%2F2050076%2Fnewsletter-units.png&width=800&height=600" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/81d139b5708b02dc5b8c05c3897aa3be/gradientmap.png?stop1=0.2&stop2=0.8&color2=%23B01B54&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F51466%2Fscreenshots%2F2050076%2Fnewsletter-units.png&width=720&height=540 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/09d3ed0c3873acce37ff13b715c1649b/gradientmap.png?stop1=0.2&stop2=0.8&color2=%23B01B54&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F51466%2Fscreenshots%2F2050076%2Fnewsletter-units.png&width=800&height=600 800w" sizes="(min-width: 1400px) 1400px, 100vw" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover-a-0-img-0" />
+            </a><style type="text/gss" scoped="scoped" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover-style-0">"scene"[x] == img[x] + 193 * image-scale !require;
+"scene"[y] == img[y] + 36 * image-scale !require;
+"scene"[width] ==  414 * image-scale !require;
+"scene"[height] == 530 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u-f2dfa4b0-657d-450b-9a33-3474c00834e0-m-cover-style-1">overflow: hidden;
+
+@v |~("viewport")~| in(img) !strong900;
+@h |~("viewport")~| in(img) !strong900;
+
+image-min-scale = 0.3;
+image-max-scale = 1.5;
+
+/* Define image dimensions and ratio */
+image-scale == img[width] / 800 !require;
+img[height] == img[width] * (600/800) !require;
+
+/* enforce minimum scale*/
+img[height] >= 600 * image-min-scale !strong950;
+img[height] <= 600 * image-max-scale !strong950;</style></div>
+        </section>
+      </div>
+      <div id="div-0-wrapper-8184097" style="position: relative" class="wide layout"><style id="div-0-wrapper-8184097-wrapper-stylesheet-8184097" type="text/gss" scoped="scoped">margin-top:= 0md;
+margin-bottom:= 0md;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/sizing/container.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
+h-gutter:= 0;
+v-gutter-min:= .5md;
+v-gutter-max:= .5md;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/layout/columns/one.gss;
+</style>
+        <section class="title-text-cover ce184e4c-2969-49e0-ab0e-67792932b2a8 mixed w-aside w-title w-divider w-decoration w-media wide fullscreen w-black-bg flow_vertical flow_reversed decorated w-bg-cover softcolor1 stack" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8"><style type="text/gss" scoped="scoped" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-style-0">@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
+inner-gap-horizontal:= 0;
+inner-gap-vertical:= 0;
+inner-gap:= 0;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
+// h-emphasis: center;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
+// name: title-text-cover;
+.group.mixed{
+  @v |-[inner-gap-top]-(.attribution)-[inner-gap]-(.divider)-[inner-gap]-(.title)-[inner-gap-bottom]-| !strong950;
+  @h |-[inner-gap-left]-(.title)-[inner-gap-right]-| !strong950;
+  @h |-[inner-gap-2-left]-(.divider)-[inner-gap-2-right]-| !strong950;
+  @h |-[inner-gap-3-left]-(.attribution)-[inner-gap-3-right]-| !strong950;
+  outer-gap-horizontal:= 0md;
+  outer-gap-vertical:= 0md;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-push/stretch.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-push/center-collapse.gss;
+  inner-gap-horizontal:= 7md;
+  inner-gap-vertical:= 0md;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-distribute/2to5.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align/left.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/v-align/top.gss;
+  // direction: vertical;
+  inner-gap:= 2g;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/simple/assets/gss/group/font-size/small.gss;
+  z-index:= 2;
+  .aside.attribution{
+    h-offset:= 0;
+    gap:= 2g;
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
     .aside.avatar{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/size/small.gss;
       height:= 4.5g;
       width:= 4.5g;
     }
     .aside.author{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/size/small.gss;
     }
     .aside.publisher{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/size/small.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
+      @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
     }
   }
-  // $class: decorated;
-  // reversed: true;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align-2/center.gss;
-}
-.group.graphical{
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-sizing/parent.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-push/stretch.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-push/stretch.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align/stretch.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align/stretch.gss;
-  .media.cover{
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/sizing/background.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/viewport/inline.gss;
-    desired-width:= 5md;
-    desired-height:= 5md;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/v-focus/fit.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/h-focus/fit.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/v-align/center.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/h-align/center.gss;
+  .decoration.divider{
+    @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/decoration/size/small.gss;
+    // svg: line;
   }
+  // $class: w-bg-cover;
+  // reversed: true;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align-2/left.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/group/h-align-3/left.gss;
+}
+.media.cover{
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/sizing/background.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/viewport/inline.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/h-focus/fit.gss;
+  @import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/media/v-focus/fit.gss;
 }
 // $class: fullscreen;
 // wrapper: wide;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
+background-color: #222;
+color: #fff;
+font-weight: bold;
+@import //cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
 </style>
-          <div dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" index="textual" class="textual group" kind="group" id="u44">
-            <h1 dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" class="title title-color vfld vfld-leader title" index="title" id="u31">
-              <a href="https://vimeo.com/38017188" id="u30">Forms (excerpt)</a>
-            </h1>
-            <p dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" index="description" class="paragraph text-color vfld vfl-trailer description" id="u33">
-              <a href="http://www.memo.tv/forms" class="linker textPop-color linker textPop-color-url">memo.tv/fo..</a> Forms is an ongoing collaboration between visuals artists Memo Akten and Quayola, a series of studies on human motion, and its reverberations through space and time. It is inspired by the works of Eadweard Muybridge, Harold Edgerton, Étienne-Jules Marey as well as similarly inspired modernist cubist works such as Marcel Duchamp's &#34;Nude Descending a Staircase No.2″.</p>
-            <div dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" index="attribution" kind="aside" class="text-color attribution aside" id="u43">
-              <div index="avatar" kind="aside" dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" class="avatar aside" id="u36">
-                <a href="http://vimeo.com/memotv" id="u35">
-                  <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/a67de5e83df7717e7a6d5ac164325f69/passthrough.jpg?input=https%3A%2F%2Fi.vimeocdn.com%2Fportrait%2F7112268_75x75.jpg&width=75&height=75" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/a67de5e83df7717e7a6d5ac164325f69/passthrough.jpg?input=https%3A%2F%2Fi.vimeocdn.com%2Fportrait%2F7112268_75x75.jpg&width=75&height=75 75w" sizes="(min-width: 1400px) 1400px, 100vw" id="u34" />
+          <div class="mixed group" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed">
+            <div class="text-color vfld attribution aside" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution">
+              <div class="avatar aside" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar">
+                <a href="http://vimeo.com/memotv" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar-a-0">
+                  <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/a67de5e83df7717e7a6d5ac164325f69/passthrough.jpg?input=https%3A%2F%2Fi.vimeocdn.com%2Fportrait%2F7112268_75x75.jpg&width=75&height=75" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/a67de5e83df7717e7a6d5ac164325f69/passthrough.jpg?input=https%3A%2F%2Fi.vimeocdn.com%2Fportrait%2F7112268_75x75.jpg&width=75&height=75 75w" sizes="(min-width: 1400px) 1400px, 100vw" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-avatar-a-0-img-0" />
                 </a>
               </div>
-              <div index="author" dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" kind="aside" class="text-color author aside" id="u39">
-                <a class="name" dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" href="http://vimeo.com/memotv" id="u38">Memo Akten</a>
+              <div class="text-color author aside" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-author">
+                <a class="name" href="http://vimeo.com/memotv" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-author-a-0">Memo Akten</a>
               </div>
-              <div index="publisher" dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" kind="aside" class="textPop-color publisher aside" id="u42">
-                <a href="https://vimeo.com/" id="u41">Vimeo</a>
+              <div class="textPop-color publisher aside" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-publisher">
+                <a href="https://vimeo.com/" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-a-attribution-a-publisher-a-0">Vimeo</a>
               </div>
             </div>
+            <h1 class="title title-color vfld title" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-title">
+              <a href="https://vimeo.com/38017188" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-title-a-0">Forms (excerpt)</a>
+            </h1>
+            <div class="divider decoration" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-g-mixed-d-divider">
+              <svg viewBox="0 0 72 72">
+                <use xlink:href="#svg-embed-line"></use>
+              </svg>
+            </div>
           </div>
-          <div dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" index="graphical" class="graphical group" kind="group" id="u52">
-            <div dataId="ce184e4c-2969-49e0-ab0e-67792932b2a8" index="cover" kind="media" class="cover media" id="u51">
-              <a href="https://vimeo.com/38017188" id="u46">
-                <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/2c863f9c9d48e39ccee627288250640c/gradientmap.jpg?stop1=0.2&stop2=0.8&color2=%23B01B54&opacity=1&srgb=True&input=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F465072739_1280.jpg&width=1280&height=720" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/9d500bdba5ed8dd4c2eea3b424e66bf4/gradientmap.jpg?stop1=0.2&stop2=0.8&color2=%23B01B54&opacity=1&srgb=True&input=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F465072739_1280.jpg&width=720&height=405 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/2c863f9c9d48e39ccee627288250640c/gradientmap.jpg?stop1=0.2&stop2=0.8&color2=%23B01B54&opacity=1&srgb=True&input=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F465072739_1280.jpg&width=1280&height=720 1280w" sizes="(min-width: 1400px) 1400px, 100vw" id="u45" />
-              </a><style type="text/gss" scoped="scoped" id="u48">"scene"[x] == img[x] + 0 * image-scale !require;
-"scene"[y] == img[y] + 0 * image-scale !require;
-"scene"[width] ==  1280 * image-scale !require;
-"scene"[height] == 720 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u50">overflow: hidden;
+          <div z="1" class="cover media" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover">
+            <a href="https://vimeo.com/38017188" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover-a-0">
+              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/6f21e6f31a42a63df9942d5d3c305c1b/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F465072739_1280.jpg&width=1280&height=720" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/0b4f11c236639c8f4fa276f792c4a2c4/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F465072739_1280.jpg&width=720&height=405 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/6f21e6f31a42a63df9942d5d3c305c1b/gradientmap.jpg?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F465072739_1280.jpg&width=1280&height=720 1280w" sizes="(min-width: 1400px) 1400px, 100vw" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover-a-0-img-0" />
+            </a><style type="text/gss" scoped="scoped" id="u-ce184e4c-2969-49e0-ab0e-67792932b2a8-m-cover-style-0">overflow: hidden;
 
 @v |~("viewport")~| in(img) !strong900;
 @h |~("viewport")~| in(img) !strong900;
@@ -559,225 +603,11 @@ img[height] == img[width] * (720/1280) !require;
 /* enforce minimum scale*/
 img[height] >= 720 * image-min-scale !strong950;
 img[height] <= 720 * image-max-scale !strong950;</style></div>
-          </div>
-        </section>
-      </div>
-      <div index="wide" kind="layout" style="position: relative" class="wide layout" id="u71"><style type="text/gss" scoped="scoped" id="u56">margin-top:= 0md;
-margin-bottom:= 0md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/sizing/container.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
-h-gutter:= 0;
-v-gutter-min:= .5md;
-v-gutter-max:= .5md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/columns/one.gss;
-</style>
-        <section dataId="f2dfa4b0-657d-450b-9a33-3474c00834e0" kind="stack" class="title-text-cover mixed w-aside w-decoration w-media global-colors base-light-color-1 title-color-1 text-color-1 boxPop-color-1 textPop-color-1 wide fullscreen flow_vertical flow_reversed align-left decorated w-bg-cover softcolor1 stack" id="u70"><style type="text/gss" scoped="scoped" id="u58">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
-inner-gap-horizontal:= 0;
-inner-gap-vertical:= 0;
-inner-gap:= 0;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
-// h-emphasis: center;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
-// name: title-text-cover;
-.group.mixed{
-  // direction: vertical;
-  inner-gap:= 2g;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/simple/assets/gss/group/font-size/small.gss;
-  outer-gap-horizontal:= 0md;
-  outer-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-push/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-push/center.gss;
-  inner-gap-horizontal:= 0md;
-  inner-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align/left.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align/center.gss;
-  text-align: left;
-  z-index:= 2;
-  inner-gap-left-min:= 2md;
-  inner-gap-right-min:= 5md;
-  .aside.attribution{
-    ^ .title{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/h-align/left.gss;
-    }
-    ^ .title{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/v-align/below.gss;
-    }
-    h-offset:= .75md;
-    gap:= 2g;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/h-sizing/intrinsic.gss;
-    @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/v-sizing/intrinsic.gss;
-    .aside.publisher{
-      @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/aside/size/small.gss;
-    }
-  }
-  // $class: w-bg-cover;
-  // reversed: true;
-}
-.media.cover{
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/sizing/background.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/media/viewport/bound.gss;
-}
-// $class: fullscreen;
-// wrapper: wide;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
-</style>
-          <div dataId="f2dfa4b0-657d-450b-9a33-3474c00834e0" index="mixed" class="mixed group" kind="group" id="u62">
-            <div dataId="f2dfa4b0-657d-450b-9a33-3474c00834e0" index="attribution" kind="aside" class="text-color attribution aside" id="u61">
-              <div index="publisher" dataId="f2dfa4b0-657d-450b-9a33-3474c00834e0" kind="aside" class="textPop-color publisher aside" id="u60">dribbble.com</div>
-            </div>
-          </div>
-          <div dataId="f2dfa4b0-657d-450b-9a33-3474c00834e0" index="cover" kind="media" class="cover media" id="u69">
-            <a href="https://dribbble.com/shots/2050076-Newsletter-Units?list=shots&offset=15&sort=popular&timeframe=now" id="u64">
-              <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/75b79ec34497a4e60181124134c16626/gradientmap.png?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F51466%2Fscreenshots%2F2050076%2Fnewsletter-units.png&width=800&height=600" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/05a3f5c3bf4a6558537261b9770fb1d9/gradientmap.png?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F51466%2Fscreenshots%2F2050076%2Fnewsletter-units.png&width=720&height=540 720w, https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/75b79ec34497a4e60181124134c16626/gradientmap.png?stop1=0&stop2=1&color1=%23160903&opacity=1&srgb=True&input=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F51466%2Fscreenshots%2F2050076%2Fnewsletter-units.png&width=800&height=600 800w" sizes="(min-width: 1400px) 1400px, 100vw" id="u63" />
-            </a><style type="text/gss" scoped="scoped" id="u66">"scene"[x] == img[x] + 193 * image-scale !require;
-"scene"[y] == img[y] + 36 * image-scale !require;
-"scene"[width] ==  414 * image-scale !require;
-"scene"[height] == 530 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u68">overflow: hidden;
-
-@v |~("viewport")~| in(img) !strong900;
-@h |~("viewport")~| in(img) !strong900;
-
-image-min-scale = 0.3;
-image-max-scale = 1.5;
-
-/* Define image dimensions and ratio */
-image-scale == img[width] / 800 !require;
-img[height] == img[width] * (600/800) !require;
-
-/* enforce minimum scale*/
-img[height] >= 600 * image-min-scale !strong950;
-img[height] <= 600 * image-max-scale !strong950;</style></div>
-        </section>
-      </div>
-      <div index="wide" kind="layout" style="position: relative" class="wide layout" id="u83"><style type="text/gss" scoped="scoped" id="u73">margin-top:= 0md;
-margin-bottom:= 0md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/sizing/container.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
-h-gutter:= 0;
-v-gutter-min:= .5md;
-v-gutter-max:= .5md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/columns/one.gss;
-</style>
-        <section dataId="b3451745-456b-4450-aef7-f1efb19cd9f6" kind="stack" class="title-text textual w-title w-description w-text global-colors base-light-color-1 title-color-1 text-color-1 boxPop-color-1 textPop-color-1 wide fullscreen flow_reversed align-left decorated stack" id="u82"><style type="text/gss" scoped="scoped" id="u75">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
-inner-gap-horizontal:= 0;
-inner-gap-vertical:= 0;
-inner-gap:= 0;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
-// h-emphasis: center;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
-// name: title-text;
-.group.textual{
-  @h |-[inner-gap-left]-(.text)-[inner-gap]-(.title)-[inner-gap-right]-| !require;
-  @v |-[inner-gap-top]-(.title)-[inner-gap-bottom]-| !require;
-  @v |-[inner-gap-2-top]-(.text)-[inner-gap-2-bottom]-| !require;
-  // name: base-color;
-  // direction: horizontal;
-  inner-gap:= 2g;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/simple/assets/gss/group/font-size/small.gss;
-  outer-gap-horizontal:= 2md;
-  outer-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-push/stretch.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-push/center.gss;
-  inner-gap-horizontal:= 0md;
-  inner-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align/center.gss;
-  inner-gap-left-min:= 2md;
-  inner-gap-right-min:= 5md;
-  z-index:= 2;
-  // $class: decorated;
-  // reversed: true;
-  text-align: left;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align-2/center.gss;
-}
-// $class: fullscreen;
-// wrapper: wide;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
-</style>
-          <div dataId="b3451745-456b-4450-aef7-f1efb19cd9f6" index="textual" class="textual group" kind="group" id="u81">
-            <h1 dataId="b3451745-456b-4450-aef7-f1efb19cd9f6" class="title title-color vfld vfld-leader title" index="title" id="u78">
-              <a href="https://futurefather.co/signup" id="u77">Future Father</a>
-            </h1>
-            <p dataId="b3451745-456b-4450-aef7-f1efb19cd9f6" kind="text" index="description" class="paragraph text-color vfld vfl-trailer description text" id="u80">We spend a lot of hours away from our kids, staring at devices, building things that our friends and clients will think are cool. Future Father is our chance to make something meaningful. To focus what we are good at, creative uses of technology, on something we care deeply about.</p>
-          </div>
-        </section>
-      </div>
-      <div index="wide" kind="layout" style="position: relative" class="wide layout" id="u95"><style type="text/gss" scoped="scoped" id="u85">margin-top:= 0md;
-margin-bottom:= 0md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/sizing/container.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/h-align/distribute.gss;
-h-gutter:= 0;
-v-gutter-min:= .5md;
-v-gutter-max:= .5md;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/layout/columns/one.gss;
-</style>
-        <section dataId="cc97a612-146a-46a5-a373-1aa38998406e" kind="stack" class="title-text textual w-title w-description w-text global-colors base-light-color-1 title-color-1 text-color-1 boxPop-color-1 textPop-color-1 wide fullscreen flow_reversed align-left decorated stack" id="u94"><style type="text/gss" scoped="scoped" id="u87">@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-align/stretch.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/h-distribute/center.gss;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-distribute/center.gss;
-inner-gap-horizontal:= 0;
-inner-gap-vertical:= 0;
-inner-gap:= 0;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/direction/vertical.gss;
-// h-emphasis: center;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-emphasis/center.gss;
-// name: title-text;
-.group.textual{
-  @h |-[inner-gap-left]-(.text)-[inner-gap]-(.title)-[inner-gap-right]-| !require;
-  @v |-[inner-gap-top]-(.title)-[inner-gap-bottom]-| !require;
-  @v |-[inner-gap-2-top]-(.text)-[inner-gap-2-bottom]-| !require;
-  // name: base-color;
-  // direction: horizontal;
-  inner-gap:= 2g;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/simple/assets/gss/group/font-size/small.gss;
-  outer-gap-horizontal:= 2md;
-  outer-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-squeeze/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-push/stretch.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-push/center.gss;
-  inner-gap-horizontal:= 0md;
-  inner-gap-vertical:= 0md;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-distribute/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/h-align/center.gss;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align/center.gss;
-  inner-gap-left-min:= 2md;
-  inner-gap-right-min:= 5md;
-  z-index:= 2;
-  // $class: decorated;
-  // reversed: true;
-  text-align: left;
-  @import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/group/v-align-2/center.gss;
-}
-// $class: fullscreen;
-// wrapper: wide;
-@import //cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/stack/v-sizing/window.gss;
-</style>
-          <div dataId="cc97a612-146a-46a5-a373-1aa38998406e" index="textual" class="textual group" kind="group" id="u93">
-            <h1 dataId="cc97a612-146a-46a5-a373-1aa38998406e" class="title title-color vfld vfld-leader title" index="title" id="u90">
-              <a href="http://www.theexperiment.io/" id="u89">The Experiment - Design and Technology Studio</a>
-            </h1>
-            <p dataId="cc97a612-146a-46a5-a373-1aa38998406e" kind="text" index="description" class="paragraph text-color vfld vfl-trailer description text" id="u92">We are a design and technology studio trying to figure out what exactly we are and who we want to work with. To keep quality high and relationships right, we are being selective. Our dance card is not full. We're beginning to partner with brands and startups on the prototyping, design and marketing of early stage products.</p>
-          </div>
         </section>
       </div>
     </div>
-    <div id="u98">
-      <link rel="stylesheet/gss" type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.78/src/layouts/shared/assets/gss/variables.gss" />
+    <div id="u71">
+      <link rel="stylesheet/gss" type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.1.0/src/layouts/shared/assets/gss/variables.gss" />
     </div>
   </body>
 
