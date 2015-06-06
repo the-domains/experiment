@@ -23,7 +23,7 @@ app_links: []
 isBasedOnUrl: "http://www.theexperiment.io/"
 title: The Experiment - Design and Technology Studio
 datePublished: "2015-05-18T07:09:05.785Z"
-dateModified: "2015-05-19T01:55:55.396Z"
+dateModified: "2015-06-06T09:07:31.315Z"
 sourcePath: _posts/2015-05-18-the-experiment-design-and-technology-studio.md
 published: true
 _context: "http://schema.org"
