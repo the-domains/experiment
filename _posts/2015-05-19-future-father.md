@@ -23,7 +23,7 @@ app_links: []
 isBasedOnUrl: "https://futurefather.co/signup"
 title: Future Father
 datePublished: "2015-05-19T02:07:38.927Z"
-dateModified: "2015-05-19T02:07:38.927Z"
+dateModified: "2015-06-06T09:07:31.184Z"
 sourcePath: _posts/2015-05-19-future-father.md
 published: true
 _context: "http://schema.org"
