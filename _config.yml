@@ -1,6 +1,6 @@
 name: The Experiment
 favicon: null
-layout_spectrum: 0.1
+layout_spectrum: 1
 typography_spectrum: 0.91228
 title: The Experiment
 cta:
@@ -17,12 +17,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - "#e6c87b"
-    - "#3d2e3a"
-    - "#8c755a"
-    - "#fa904b"
-    - "#f52333"
-  brandStrength: 0
-  lightness: 0.5
-  saturation: 0.5
+    - '#e6c87b'
+    - '#3d2e3a'
+    - '#8c755a'
+    - '#fa904b'
+    - '#f52333'
+  brandStrength: 1
+  lightness: 0
+  saturation: 1
+  rhythmicContrast: 0.5
 purpose: []
