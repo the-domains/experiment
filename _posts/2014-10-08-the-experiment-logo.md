@@ -1,13 +1,13 @@
 ---
 author:
   - name: Nick Jones
-    url: "http://dribbble.com/narrowdesign"
+    url: 'http://dribbble.com/narrowdesign'
     avatar: {}
 related: []
 publisher:
-  url: "http://dribbble.com/"
+  url: 'http://dribbble.com/'
   name: Dribbble
-  favicon: "https://d13yacurqjgara.cloudfront.net/assets/dribbble-ball-192-ca31e1fa9e48daf014e441a1d358b5d1.png"
+  favicon: 'https://d13yacurqjgara.cloudfront.net/assets/dribbble-ball-192-ca31e1fa9e48daf014e441a1d358b5d1.png'
   domain: dribbble.com
 keywords:
   - dribbble
@@ -20,16 +20,19 @@ keywords:
   - designers
   - zoom
   - salem
-description: "We left jobs in advertising to open this studio called The Experiment. Then we spent 3 days designing and coding our first experiment. http://theexperiment.io"
+description: 'We left jobs in advertising to open this studio called The Experiment. Then we spent 3 days designing and coding our first experiment. http://theexperiment.io'
 inLanguage: English
-datePublished: "2014-10-08T00:00:00.000Z"
+datePublished: '2015-11-06T15:41:10.324Z'
 app_links: []
-isBasedOnUrl: "https://dribbble.com/shots/1758125-The-Experiment-Logo?list=users&offset=2"
+isBasedOnUrl: 'https://dribbble.com/shots/1758125-The-Experiment-Logo?list=users&offset=2'
 title: The Experiment Logo
-dateModified: "2015-06-06T09:07:31.164Z"
+dateModified: '2015-06-06T09:07:31.164Z'
 sourcePath: _posts/2014-10-08-the-experiment-logo.md
 published: true
-_context: "http://schema.org"
+inFeed: true
+hasPage: false
+inNav: false
+_context: 'http://schema.org'
 _type: MediaObject
 
 ---
