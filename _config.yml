@@ -2,6 +2,7 @@ name: The Experiment
 favicon: null
 layout_spectrum: 0.16119
 typography_spectrum: 0.91228
+style: the-composer
 title: The Experiment
 cta:
   domain: null
